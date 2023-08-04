@@ -1,0 +1,103 @@
+.red {
+    background-color: red !important;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0%;
+}
+
+#games {
+    margin-top: 5%;
+}
+
+#alsomenu {
+    margin-top: 3%;
+}
+
+.hide {
+    display: none;
+}
+
+.container7 {
+    flex-wrap: wrap;
+    width: 350px;
+    display: flex;
+
+}
+
+.item {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    box-sizing: border-box;
+
+}
+
+.feka {
+    background-color: black;
+}
+
+.highlight {
+    background-color: rgba(255, 255, 0, 0.30);
+    box-shadow: 0px 0px 30px 0px rgba(255, 255, 0, 0.30);
+}
+
+body {
+    margin: 0 auto;
+    background-color: #423f3f;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    /* line-height: 40%; */
+}
+
+.games {
+    margin: 0 auto;
+    background-color: #423f3f;
+    text-align: center;
+}
+
+button {
+    background: none;
+    color: #9ea5ad;
+    border: 2px solid #9ea5ad;
+    padding: 1em 2em;
+    transition: 0.25s;
+    border-radius: 5px;
+  }
+  
+button:hover {
+    border-color: #9ea5ad;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em -0.4em #9ea5ad;
+}
+
+h1, h3, li {
+    color: #9ea5ad;
+    font-family: 'Courier New', monospace;
+    font-style: italic;
+    background-color: #423f3f;
+}
+
+li {
+    margin: 10px 0;
+}
+
+ul {
+    width: 30%;
+    margin: 0 auto;
+    background-color: #423f3f;
+    text-align: center;
+    justify-content: center;
+}
