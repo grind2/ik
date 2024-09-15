@@ -13,4 +13,4 @@
 [x] - Helyszín módosítása 3 pont
 [x] - Helyszín törlése 2 pont
 
-Elhanyagolt frontend, mivel nem járt rá pont.
+without front-end
